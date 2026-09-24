@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		PROD_BUILD_0000 /* MainActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0000; };
+		PROD_BUILD_0001 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0001; };
+		PROD_BUILD_0002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0002; };
+		PROD_BUILD_0003 /* LedgerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0003; };
+		PROD_BUILD_0004 /* LedgerCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0004; };
+		PROD_BUILD_0005 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0005; };
+		PROD_BUILD_0006 /* AnalyticsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0006; };
+		PROD_BUILD_0007 /* AuthScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0007; };
+		PROD_BUILD_0008 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0008; };
+		PROD_BUILD_0009 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0009; };
+		PROD_BUILD_0010 /* AddExpenseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0010; };
+		PROD_BUILD_0011 /* AddExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0011; };
+		PROD_BUILD_0012 /* BudgetsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0012; };
+		PROD_BUILD_0013 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0013; };
+		PROD_BUILD_0014 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0014; };
+		PROD_BUILD_0015 /* SettleUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0015; };
+		PROD_BUILD_0016 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0016; };
+		PROD_BUILD_0017 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0017; };
+		PROD_BUILD_0018 /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0018; };
+		PROD_BUILD_0019 /* SettleUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0019; };
+		PROD_BUILD_0020 /* GoalsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0020; };
+		PROD_BUILD_0021 /* AuthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0021; };
+		PROD_BUILD_0022 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0022; };
+		PROD_BUILD_0023 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0023; };
+		PROD_BUILD_0024 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0024; };
+		PROD_BUILD_0025 /* PdfGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0025; };
+		PROD_BUILD_0026 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0026; };
+		PROD_BUILD_0027 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0027; };
+		PROD_BUILD_0028 /* AiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0028; };
+		PROD_BUILD_0029 /* AiFinancialContextEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0029; };
+		PROD_BUILD_0030 /* AiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0030; };
+		PROD_BUILD_0031 /* AiScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0031; };
+		PROD_BUILD_0032 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0032; };
+		PROD_BUILD_0033 /* SensorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0033; };
+		PROD_BUILD_0034 /* MotionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0034; };
+		PROD_BUILD_0035 /* PeakDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0035; };
+		PROD_BUILD_0036 /* GestureStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0036; };
+		PROD_BUILD_0037 /* GestureDebouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0037; };
+		PROD_BUILD_0038 /* MotionGestureEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0038; };
+		PROD_BUILD_0039 /* DynamicIslandQuickAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0039; };
+		PROD_BUILD_0040 /* AquaDynamicsNotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0040; };
+		PROD_BUILD_0041 /* GlobalShakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0041; };
+		PROD_BUILD_0042 /* ShakeAccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0042; };
+		PROD_BUILD_0043 /* QuickActionReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0043; };
+		PROD_BUILD_0044 /* BootReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0044; };
+		PROD_BUILD_0045 /* QuickAddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0045; };
+		PROD_BUILD_0046 /* CutoutGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0046; };
+		PROD_BUILD_0047 /* QuickAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0047; };
+		PROD_BUILD_0048 /* AppForegroundTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0048; };
+		PROD_BUILD_0049 /* CameraAnchoredDynamicIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0049; };
+		PROD_BUILD_0050 /* CameraPunchHoleHalo.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0050; };
+		PROD_BUILD_0051 /* QuantumEventHorizonEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0051; };
+		PROD_BUILD_0052 /* SlingshotBlackHoleLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = PROD_REF_0052; };
+		TEST_BUILD_0000 /* ExampleInstrumentedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0000; };
+		TEST_BUILD_0001 /* GreetingScreenshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0001; };
+		TEST_BUILD_0002 /* ExampleRobolectricTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0002; };
+		TEST_BUILD_0003 /* ExampleUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0003; };
+		TEST_BUILD_0004 /* mid.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0004; };
+		TEST_BUILD_0005 /* top.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0005; };
+		TEST_BUILD_0006 /* bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0006; };
+		TEST_BUILD_0007 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0007; };
+		TEST_BUILD_0008 /* AiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0008; };
+		TEST_BUILD_0009 /* test_gemini.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0009; };
+		TEST_BUILD_0010 /* TestFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0010; };
+		TEST_BUILD_0011 /* MotionDetectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = TEST_REF_0011; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		PROD_REF_0000 /* MainActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MainActivity.swift"; path = "OurMoney/Views/MainActivity.swift"; sourceTree = "<group>"; };
+		PROD_REF_0001 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AuthRepository.swift"; path = "OurMoney/Services/AuthRepository.swift"; sourceTree = "<group>"; };
+		PROD_REF_0002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Models.swift"; path = "OurMoney/Models/Models.swift"; sourceTree = "<group>"; };
+		PROD_REF_0003 /* LedgerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LedgerRepository.swift"; path = "OurMoney/Services/LedgerRepository.swift"; sourceTree = "<group>"; };
+		PROD_REF_0004 /* LedgerCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LedgerCalculator.swift"; path = "OurMoney/Services/LedgerCalculator.swift"; sourceTree = "<group>"; };
+		PROD_REF_0005 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DashboardViewModel.swift"; path = "OurMoney/Views/DashboardViewModel.swift"; sourceTree = "<group>"; };
+		PROD_REF_0006 /* AnalyticsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AnalyticsScreen.swift"; path = "OurMoney/Views/AnalyticsScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0007 /* AuthScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AuthScreens.swift"; path = "OurMoney/Views/AuthScreens.swift"; sourceTree = "<group>"; };
+		PROD_REF_0008 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AuthViewModel.swift"; path = "OurMoney/Views/AuthViewModel.swift"; sourceTree = "<group>"; };
+		PROD_REF_0009 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DashboardScreen.swift"; path = "OurMoney/Views/DashboardScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0010 /* AddExpenseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AddExpenseScreen.swift"; path = "OurMoney/Views/AddExpenseScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0011 /* AddExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AddExpenseViewModel.swift"; path = "OurMoney/Views/AddExpenseViewModel.swift"; sourceTree = "<group>"; };
+		PROD_REF_0012 /* BudgetsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BudgetsScreen.swift"; path = "OurMoney/Views/BudgetsScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0013 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color.swift"; path = "OurMoney/Models/Color.swift"; sourceTree = "<group>"; };
+		PROD_REF_0014 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MainScreen.swift"; path = "OurMoney/Views/MainScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0015 /* SettleUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SettleUpViewModel.swift"; path = "OurMoney/Views/SettleUpViewModel.swift"; sourceTree = "<group>"; };
+		PROD_REF_0016 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Theme.swift"; path = "OurMoney/Models/Theme.swift"; sourceTree = "<group>"; };
+		PROD_REF_0017 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Type.swift"; path = "OurMoney/Models/Type.swift"; sourceTree = "<group>"; };
+		PROD_REF_0018 /* HistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HistoryScreen.swift"; path = "OurMoney/Views/HistoryScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0019 /* SettleUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SettleUpScreen.swift"; path = "OurMoney/Views/SettleUpScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0020 /* GoalsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GoalsScreen.swift"; path = "OurMoney/Views/GoalsScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0021 /* AuthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AuthState.swift"; path = "OurMoney/Models/AuthState.swift"; sourceTree = "<group>"; };
+		PROD_REF_0022 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SettingsScreen.swift"; path = "OurMoney/Views/SettingsScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0023 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserRepository.swift"; path = "OurMoney/Services/UserRepository.swift"; sourceTree = "<group>"; };
+		PROD_REF_0024 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SettingsViewModel.swift"; path = "OurMoney/Views/SettingsViewModel.swift"; sourceTree = "<group>"; };
+		PROD_REF_0025 /* PdfGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PdfGenerator.swift"; path = "OurMoney/Services/PdfGenerator.swift"; sourceTree = "<group>"; };
+		PROD_REF_0026 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Shape.swift"; path = "OurMoney/Models/Shape.swift"; sourceTree = "<group>"; };
+		PROD_REF_0027 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AnimatedBackground.swift"; path = "OurMoney/Services/AnimatedBackground.swift"; sourceTree = "<group>"; };
+		PROD_REF_0028 /* AiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AiRepository.swift"; path = "OurMoney/Services/AiRepository.swift"; sourceTree = "<group>"; };
+		PROD_REF_0029 /* AiFinancialContextEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AiFinancialContextEngine.swift"; path = "OurMoney/Services/AiFinancialContextEngine.swift"; sourceTree = "<group>"; };
+		PROD_REF_0030 /* AiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AiViewModel.swift"; path = "OurMoney/Views/AiViewModel.swift"; sourceTree = "<group>"; };
+		PROD_REF_0031 /* AiScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AiScreen.swift"; path = "OurMoney/Views/AiScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0032 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SplashScreen.swift"; path = "OurMoney/Views/SplashScreen.swift"; sourceTree = "<group>"; };
+		PROD_REF_0033 /* SensorFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SensorFilter.swift"; path = "OurMoney/Services/SensorFilter.swift"; sourceTree = "<group>"; };
+		PROD_REF_0034 /* MotionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MotionSettings.swift"; path = "OurMoney/Services/MotionSettings.swift"; sourceTree = "<group>"; };
+		PROD_REF_0035 /* PeakDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PeakDetector.swift"; path = "OurMoney/Services/PeakDetector.swift"; sourceTree = "<group>"; };
+		PROD_REF_0036 /* GestureStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GestureStateMachine.swift"; path = "OurMoney/Models/GestureStateMachine.swift"; sourceTree = "<group>"; };
+		PROD_REF_0037 /* GestureDebouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GestureDebouncer.swift"; path = "OurMoney/Services/GestureDebouncer.swift"; sourceTree = "<group>"; };
+		PROD_REF_0038 /* MotionGestureEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MotionGestureEngine.swift"; path = "OurMoney/Services/MotionGestureEngine.swift"; sourceTree = "<group>"; };
+		PROD_REF_0039 /* DynamicIslandQuickAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DynamicIslandQuickAdd.swift"; path = "OurMoney/Views/DynamicIslandQuickAdd.swift"; sourceTree = "<group>"; };
+		PROD_REF_0040 /* AquaDynamicsNotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AquaDynamicsNotificationHelper.swift"; path = "OurMoney/Services/AquaDynamicsNotificationHelper.swift"; sourceTree = "<group>"; };
+		PROD_REF_0041 /* GlobalShakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GlobalShakeService.swift"; path = "OurMoney/Services/GlobalShakeService.swift"; sourceTree = "<group>"; };
+		PROD_REF_0042 /* ShakeAccessibilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ShakeAccessibilityService.swift"; path = "OurMoney/Services/ShakeAccessibilityService.swift"; sourceTree = "<group>"; };
+		PROD_REF_0043 /* QuickActionReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "QuickActionReceiver.swift"; path = "OurMoney/Services/QuickActionReceiver.swift"; sourceTree = "<group>"; };
+		PROD_REF_0044 /* BootReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BootReceiver.swift"; path = "OurMoney/Services/BootReceiver.swift"; sourceTree = "<group>"; };
+		PROD_REF_0045 /* QuickAddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "QuickAddActivity.swift"; path = "OurMoney/Views/QuickAddActivity.swift"; sourceTree = "<group>"; };
+		PROD_REF_0046 /* CutoutGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CutoutGeometry.swift"; path = "OurMoney/Services/CutoutGeometry.swift"; sourceTree = "<group>"; };
+		PROD_REF_0047 /* QuickAddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "QuickAddController.swift"; path = "OurMoney/Services/QuickAddController.swift"; sourceTree = "<group>"; };
+		PROD_REF_0048 /* AppForegroundTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AppForegroundTracker.swift"; path = "OurMoney/Services/AppForegroundTracker.swift"; sourceTree = "<group>"; };
+		PROD_REF_0049 /* CameraAnchoredDynamicIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CameraAnchoredDynamicIsland.swift"; path = "OurMoney/Views/CameraAnchoredDynamicIsland.swift"; sourceTree = "<group>"; };
+		PROD_REF_0050 /* CameraPunchHoleHalo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CameraPunchHoleHalo.swift"; path = "OurMoney/Views/CameraPunchHoleHalo.swift"; sourceTree = "<group>"; };
+		PROD_REF_0051 /* QuantumEventHorizonEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "QuantumEventHorizonEngine.swift"; path = "OurMoney/Services/QuantumEventHorizonEngine.swift"; sourceTree = "<group>"; };
+		PROD_REF_0052 /* SlingshotBlackHoleLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SlingshotBlackHoleLauncher.swift"; path = "OurMoney/Services/SlingshotBlackHoleLauncher.swift"; sourceTree = "<group>"; };
+		TEST_REF_0000 /* ExampleInstrumentedTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExampleInstrumentedTest.swift"; path = "OurMoneyTests/ExampleInstrumentedTest.swift"; sourceTree = "<group>"; };
+		TEST_REF_0001 /* GreetingScreenshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GreetingScreenshotTest.swift"; path = "OurMoneyTests/GreetingScreenshotTest.swift"; sourceTree = "<group>"; };
+		TEST_REF_0002 /* ExampleRobolectricTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExampleRobolectricTest.swift"; path = "OurMoneyTests/ExampleRobolectricTest.swift"; sourceTree = "<group>"; };
+		TEST_REF_0003 /* ExampleUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExampleUnitTest.swift"; path = "OurMoneyTests/ExampleUnitTest.swift"; sourceTree = "<group>"; };
+		TEST_REF_0004 /* mid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "mid.swift"; path = "OurMoneyTests/mid.swift"; sourceTree = "<group>"; };
+		TEST_REF_0005 /* top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "top.swift"; path = "OurMoneyTests/top.swift"; sourceTree = "<group>"; };
+		TEST_REF_0006 /* bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "bot.swift"; path = "OurMoneyTests/bot.swift"; sourceTree = "<group>"; };
+		TEST_REF_0007 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "test.swift"; path = "OurMoneyTests/test.swift"; sourceTree = "<group>"; };
+		TEST_REF_0008 /* AiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AiTest.swift"; path = "OurMoneyTests/AiTest.swift"; sourceTree = "<group>"; };
+		TEST_REF_0009 /* test_gemini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "test_gemini.swift"; path = "OurMoneyTests/test_gemini.swift"; sourceTree = "<group>"; };
+		TEST_REF_0010 /* TestFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TestFirst.swift"; path = "OurMoneyTests/TestFirst.swift"; sourceTree = "<group>"; };
+		TEST_REF_0011 /* MotionDetectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MotionDetectionTest.swift"; path = "OurMoneyTests/MotionDetectionTest.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		PROD_FRAMEWORKS /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		TEST_FRAMEWORKS /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		MAIN_GROUP /* CustomGroup */ = {
+			isa = PBXGroup;
+			children = (
+				PROD_GROUP /* OurMoney */,
+				TEST_GROUP /* OurMoneyTests */,
+			);
+			sourceTree = "<group>";
+		};
+		PROD_GROUP /* OurMoney */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "OurMoney";
+			sourceTree = "<group>";
+		};
+		TEST_GROUP /* OurMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "OurMoneyTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		PROD_TARGET /* OurMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = PROD_CONFIG_LIST /* Build configuration list for PBXNativeTarget */;
+			buildPhases = (
+				PROD_SOURCES /* Sources */,
+				PROD_FRAMEWORKS /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OurMoney";
+			productName = "OurMoney";
+			productType = "com.apple.product-type.application";
+		};
+		TEST_TARGET /* OurMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = TEST_CONFIG_LIST /* Build configuration list for PBXNativeTarget */;
+			buildPhases = (
+				TEST_SOURCES /* Sources */,
+				TEST_FRAMEWORKS /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OurMoneyTests";
+			productName = "OurMoneyTests";
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJECT_ROOT /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					PROD_TARGET = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					TEST_TARGET = {
+						TestTargetID = PROD_TARGET;
+					};
+				};
+			};
+			buildConfigurationList = PROJ_CONFIG_LIST /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = MAIN_GROUP;
+			productRefGroup = MAIN_GROUP;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				PROD_TARGET /* OurMoney */,
+				TEST_TARGET /* OurMoneyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		PROD_SOURCES /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PROD_BUILD_0000 /* MainActivity.swift in Sources */,
+				PROD_BUILD_0001 /* AuthRepository.swift in Sources */,
+				PROD_BUILD_0002 /* Models.swift in Sources */,
+				PROD_BUILD_0003 /* LedgerRepository.swift in Sources */,
+				PROD_BUILD_0004 /* LedgerCalculator.swift in Sources */,
+				PROD_BUILD_0005 /* DashboardViewModel.swift in Sources */,
+				PROD_BUILD_0006 /* AnalyticsScreen.swift in Sources */,
+				PROD_BUILD_0007 /* AuthScreens.swift in Sources */,
+				PROD_BUILD_0008 /* AuthViewModel.swift in Sources */,
+				PROD_BUILD_0009 /* DashboardScreen.swift in Sources */,
+				PROD_BUILD_0010 /* AddExpenseScreen.swift in Sources */,
+				PROD_BUILD_0011 /* AddExpenseViewModel.swift in Sources */,
+				PROD_BUILD_0012 /* BudgetsScreen.swift in Sources */,
+				PROD_BUILD_0013 /* Color.swift in Sources */,
+				PROD_BUILD_0014 /* MainScreen.swift in Sources */,
+				PROD_BUILD_0015 /* SettleUpViewModel.swift in Sources */,
+				PROD_BUILD_0016 /* Theme.swift in Sources */,
+				PROD_BUILD_0017 /* Type.swift in Sources */,
+				PROD_BUILD_0018 /* HistoryScreen.swift in Sources */,
+				PROD_BUILD_0019 /* SettleUpScreen.swift in Sources */,
+				PROD_BUILD_0020 /* GoalsScreen.swift in Sources */,
+				PROD_BUILD_0021 /* AuthState.swift in Sources */,
+				PROD_BUILD_0022 /* SettingsScreen.swift in Sources */,
+				PROD_BUILD_0023 /* UserRepository.swift in Sources */,
+				PROD_BUILD_0024 /* SettingsViewModel.swift in Sources */,
+				PROD_BUILD_0025 /* PdfGenerator.swift in Sources */,
+				PROD_BUILD_0026 /* Shape.swift in Sources */,
+				PROD_BUILD_0027 /* AnimatedBackground.swift in Sources */,
+				PROD_BUILD_0028 /* AiRepository.swift in Sources */,
+				PROD_BUILD_0029 /* AiFinancialContextEngine.swift in Sources */,
+				PROD_BUILD_0030 /* AiViewModel.swift in Sources */,
+				PROD_BUILD_0031 /* AiScreen.swift in Sources */,
+				PROD_BUILD_0032 /* SplashScreen.swift in Sources */,
+				PROD_BUILD_0033 /* SensorFilter.swift in Sources */,
+				PROD_BUILD_0034 /* MotionSettings.swift in Sources */,
+				PROD_BUILD_0035 /* PeakDetector.swift in Sources */,
+				PROD_BUILD_0036 /* GestureStateMachine.swift in Sources */,
+				PROD_BUILD_0037 /* GestureDebouncer.swift in Sources */,
+				PROD_BUILD_0038 /* MotionGestureEngine.swift in Sources */,
+				PROD_BUILD_0039 /* DynamicIslandQuickAdd.swift in Sources */,
+				PROD_BUILD_0040 /* AquaDynamicsNotificationHelper.swift in Sources */,
+				PROD_BUILD_0041 /* GlobalShakeService.swift in Sources */,
+				PROD_BUILD_0042 /* ShakeAccessibilityService.swift in Sources */,
+				PROD_BUILD_0043 /* QuickActionReceiver.swift in Sources */,
+				PROD_BUILD_0044 /* BootReceiver.swift in Sources */,
+				PROD_BUILD_0045 /* QuickAddActivity.swift in Sources */,
+				PROD_BUILD_0046 /* CutoutGeometry.swift in Sources */,
+				PROD_BUILD_0047 /* QuickAddController.swift in Sources */,
+				PROD_BUILD_0048 /* AppForegroundTracker.swift in Sources */,
+				PROD_BUILD_0049 /* CameraAnchoredDynamicIsland.swift in Sources */,
+				PROD_BUILD_0050 /* CameraPunchHoleHalo.swift in Sources */,
+				PROD_BUILD_0051 /* QuantumEventHorizonEngine.swift in Sources */,
+				PROD_BUILD_0052 /* SlingshotBlackHoleLauncher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		TEST_SOURCES /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				TEST_BUILD_0000 /* ExampleInstrumentedTest.swift in Sources */,
+				TEST_BUILD_0001 /* GreetingScreenshotTest.swift in Sources */,
+				TEST_BUILD_0002 /* ExampleRobolectricTest.swift in Sources */,
+				TEST_BUILD_0003 /* ExampleUnitTest.swift in Sources */,
+				TEST_BUILD_0004 /* mid.swift in Sources */,
+				TEST_BUILD_0005 /* top.swift in Sources */,
+				TEST_BUILD_0006 /* bot.swift in Sources */,
+				TEST_BUILD_0007 /* test.swift in Sources */,
+				TEST_BUILD_0008 /* AiTest.swift in Sources */,
+				TEST_BUILD_0009 /* test_gemini.swift in Sources */,
+				TEST_BUILD_0010 /* TestFirst.swift in Sources */,
+				TEST_BUILD_0011 /* MotionDetectionTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		PROD_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "OurMoney/Resources/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ourmoney";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		PROD_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "OurMoney/Resources/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ourmoney";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		TEST_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ourmoneytests";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		TEST_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ourmoneytests";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PROD_CONFIG_LIST /* Build configuration list for PBXNativeTarget */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PROD_DEBUG /* Debug */,
+				PROD_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		TEST_CONFIG_LIST /* Build configuration list for PBXNativeTarget */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				TEST_DEBUG /* Debug */,
+				TEST_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		PROJ_CONFIG_LIST /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PROD_DEBUG /* Debug */,
+				PROD_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJECT_ROOT /* Project object */;
+}

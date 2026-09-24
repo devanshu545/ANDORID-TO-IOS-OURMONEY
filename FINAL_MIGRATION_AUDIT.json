@@ -1,0 +1,42 @@
+{
+  "audit_version": "1.0",
+  "timestamp": "2026-09-24T13:02:00.000Z",
+  "pipeline": {
+    "engine": "Codexia Transformation Engine v2.0",
+    "llm_provider": "Google Gemini 2.5 Flash",
+    "status": "COMPLETED",
+    "execution_time_ms": 1187030,
+    "traceability": "100% Codexia LLM Generated"
+  },
+  "input_source": "ourmoney.zip (Android Kotlin/Java & XML project)",
+  "output": {
+    "root_directory": "D:\\Codexia-OurMoney-Output",
+    "total_swift_files": 65,
+    "production_swift_files": 53,
+    "test_swift_files": 12,
+    "xml_resource_files": 14,
+    "xcodeproj_present": true,
+    "pbxproj_valid": true,
+    "package_swift_present": true,
+    "info_plist_present": true,
+    "google_service_info_plist_present": true,
+    "github_actions_workflow": true
+  },
+  "audit_verification": {
+    "single_main_entry_point": true,
+    "main_file": "OurMoney/Views/MainActivity.swift",
+    "duplicate_main_annotations": 0,
+    "test_target_isolation": true,
+    "android_apis_remaining_in_prod": 0,
+    "navigation_controller_mapped": true,
+    "callback_flow_mapped": true,
+    "placeholders_found": 0,
+    "windows_prebuild_validation_passed": true
+  },
+  "target_platform_requirements": {
+    "host_os": "Windows (Local)",
+    "xcode_compiler_available_locally": false,
+    "macOS_ci_workflow_configured": true,
+    "build_execution": "GitHub Actions Xcode Cloud Runner"
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "codexiaPipelineVersion": "4.0.0-master-verified",
+  "timestamp": "2026-09-24T13:01:07.910Z",
+  "totalInputFiles": 79,
+  "filesTransformed": 65,
+  "prodSwiftFilesCount": 53,
+  "testSwiftFilesCount": 12,
+  "xcodeProjectGenerated": true,
+  "packageSwiftGenerated": true,
+  "infoPlistGenerated": true,
+  "validation": {
+    "timestamp": "2026-09-24T13:01:07.908Z",
+    "prodSwiftFilesCount": 53,
+    "testSwiftFilesCount": 12,
+    "mainDeclarationsCountInProdTarget": 1,
+    "singleMainRulePassed": true,
+    "xcodeProjectGenerated": true,
+    "packageSwiftGenerated": true,
+    "infoPlistGenerated": true,
+    "googleServiceInfoPlistGenerated": true,
+    "gitHubActionsWorkflowGenerated": true,
+    "placeholderCount": 0,
+    "validationPassed": true
+  },
+  "mapping": [
+    {
+      "sourcePath": "app/src/androidTest/java/com/example/ExampleInstrumentedTest.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/ExampleInstrumentedTest.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "XCTest",
+        "Foundation"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/MainActivity.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/MainActivity.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "SwiftUI",
+        "Combine"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/auth/AuthRepository.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/AuthRepository.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "Foundation",
+        "Combine",
+        "FirebaseAuth",
+        "FirebaseFirestore"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/AndroidManifest.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\AndroidManifest.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/model/Models.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Models/Models.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/data/LedgerRepository.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/LedgerRepository.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "FirebaseFirestore",
+        "FirebaseFirestoreSwift",
+        "Combine",
+        "Foundation"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/domain/LedgerCalculator.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/LedgerCalculator.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/dashboard/DashboardViewModel.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/DashboardViewModel.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/analytics/AnalyticsScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/AnalyticsScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "Foundation",
+        "Combine",
+        "SwiftUI"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/auth/AuthScreens.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/AuthScreens.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "SwiftUI",
+        "GoogleSignIn"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/auth/AuthViewModel.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/AuthViewModel.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "Foundation",
+        "Combine"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/dashboard/DashboardScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/DashboardScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "SwiftUI",
+        "Combine"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/expense/AddExpenseScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/AddExpenseScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "SwiftUI",
+        "Combine"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/expense/AddExpenseViewModel.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/AddExpenseViewModel.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "Foundation",
+        "Combine"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/budgets/BudgetsScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/BudgetsScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/theme/Color.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Models/Color.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "SwiftUI"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/main/MainScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/MainScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "SwiftUI",
+        "Combine",
+        "CoreMotion",
+        "UserNotifications"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/settlement/SettleUpViewModel.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/SettleUpViewModel.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "Foundation",
+        "Combine"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/theme/Theme.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Models/Theme.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": [
+        "SwiftUI"
+      ]
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/theme/Type.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Models/Type.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/values/strings.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\strings.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/values/colors.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\colors.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/values/themes.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\themes.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/xml/backup_rules.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\backup_rules.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/history/HistoryScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/HistoryScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/settlement/SettleUpScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/SettleUpScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/goals/GoalsScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/GoalsScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\ic_launcher_foreground.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\ic_launcher_background.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/xml/data_extraction_rules.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\data_extraction_rules.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\ic_launcher.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\ic_launcher_round.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/test/java/com/example/GreetingScreenshotTest.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/GreetingScreenshotTest.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/test/java/com/example/ExampleRobolectricTest.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/ExampleRobolectricTest.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/auth/AuthState.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Models/AuthState.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/test/java/com/example/ExampleUnitTest.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/ExampleUnitTest.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "mid.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/mid.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "top.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/top.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/settings/SettingsScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/SettingsScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/data/UserRepository.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/UserRepository.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/settings/SettingsViewModel.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/SettingsViewModel.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "bot.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/bot.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/drawable/ic_app_logo_background.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\ic_app_logo_background.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/drawable/ic_app_logo_foreground.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\ic_app_logo_foreground.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "test.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/test.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/xml/file_paths.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\file_paths.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/util/PdfGenerator.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/PdfGenerator.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/theme/Shape.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Models/Shape.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/components/AnimatedBackground.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/AnimatedBackground.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/data/AiRepository.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/AiRepository.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/domain/AiFinancialContextEngine.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/AiFinancialContextEngine.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/api/AiTest.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/AiTest.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/ai/AiViewModel.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/AiViewModel.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/ai/AiScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/AiScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "test_gemini.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/test_gemini.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/ai/TestFirst.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/TestFirst.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/components/SplashScreen.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/SplashScreen.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/SensorFilter.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/SensorFilter.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/MotionSettings.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/MotionSettings.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/PeakDetector.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/PeakDetector.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/GestureStateMachine.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Models/GestureStateMachine.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/GestureDebouncer.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/GestureDebouncer.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/MotionGestureEngine.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/MotionGestureEngine.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/components/DynamicIslandQuickAdd.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/DynamicIslandQuickAdd.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/test/java/com/example/MotionDetectionTest.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoneyTests/MotionDetectionTest.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/AquaDynamicsNotificationHelper.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/AquaDynamicsNotificationHelper.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/GlobalShakeService.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/GlobalShakeService.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/ShakeAccessibilityService.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/ShakeAccessibilityService.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/QuickActionReceiver.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/QuickActionReceiver.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/BootReceiver.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/BootReceiver.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/res/xml/accessibility_service_config.xml",
+      "sourceType": "XML Resource",
+      "resultStatus": "Copied Resource",
+      "generatedPath": "OurMoney\\Resources\\accessibility_service_config.xml",
+      "generatedLanguage": "XML",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/quickadd/QuickAddActivity.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/QuickAddActivity.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/quickadd/CutoutGeometry.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/CutoutGeometry.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/quickadd/QuickAddController.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/QuickAddController.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/motion/AppForegroundTracker.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/AppForegroundTracker.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/quickadd/CameraAnchoredDynamicIsland.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/CameraAnchoredDynamicIsland.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/quickadd/CameraPunchHoleHalo.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Views/CameraPunchHoleHalo.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/quickadd/QuantumEventHorizonEngine.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/QuantumEventHorizonEngine.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    },
+    {
+      "sourcePath": "app/src/main/java/com/example/ui/quickadd/SlingshotBlackHoleLauncher.kt",
+      "sourceType": "Kotlin/Java Source",
+      "resultStatus": "Converted",
+      "generatedPath": "OurMoney/Services/SlingshotBlackHoleLauncher.swift",
+      "generatedLanguage": "Swift",
+      "responseStatus": 200,
+      "dependencyRefs": []
+    }
+  ]
+}

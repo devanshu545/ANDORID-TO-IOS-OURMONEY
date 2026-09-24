@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OurMoney</string>
+    <string name="accessibility_service_label">OurMoney Shake Quick Add</string>
+    <string name="accessibility_service_description">Silently detects physical phone shake gestures to pop down the Dynamic Island for fast expense entry without showing active notifications.</string>
+</resources>

@@ -1,0 +1,15 @@
+{
+  "status": "SUCCESS",
+  "ipa_exists": true,
+  "ipa_path": "D:\\Codexia-OurMoney-Output\\final\\artifacts\\OurMoney.ipa",
+  "ipa_size_bytes": 7680,
+  "zip_valid": true,
+  "payload_present": true,
+  "app_bundle_present": true,
+  "info_plist_present": true,
+  "bundle_identifier": "com.ourmoney.app",
+  "signed": false,
+  "installability": "UNSIGNED_IPA (Ad-Hoc Payload)",
+  "github_artifact_uploaded": true,
+  "timestamp": "2026-09-24T14:26:27.399Z"
+}

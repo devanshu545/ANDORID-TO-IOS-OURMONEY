@@ -1,0 +1,97 @@
+name: Build & Package OurMoney iOS IPA
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Dynamic Xcode Discovery and Selection
+      run: |
+        echo "=== Available Xcode Installations ==="
+        ls -d /Applications/Xcode*.app 2>/dev/null || true
+        
+        echo "=== Default System Xcode ==="
+        xcode-select -p || true
+        xcodebuild -version || true
+
+        # Select stable installed Xcode (avoiding preview/beta versions if stable exists)
+        STABLE_XCODE=$(ls -d /Applications/Xcode*.app 2>/dev/null | grep -v -i "beta" | head -n 1)
+        if [ -n "$STABLE_XCODE" ]; then
+          echo "Switching active Xcode developer directory to: $STABLE_XCODE"
+          sudo xcode-select -s "$STABLE_XCODE/Contents/Developer"
+        else
+          echo "Retaining default system xcode-select"
+        fi
+
+        echo "=== Final Xcode Version ==="
+        xcodebuild -version
+        xcode-select -p
+
+    - name: Clean Build Workspace & Inspect Scheme
+      run: |
+        rm -rf build artifacts
+        mkdir -p build artifacts
+        xcodebuild -list -project OurMoney.xcodeproj
+        xcodebuild -project OurMoney.xcodeproj -scheme OurMoney -sdk iphoneos -configuration Release -showBuildSettings > build/build_settings.txt
+        grep "PRODUCT_BUNDLE_IDENTIFIER" build/build_settings.txt || true
+
+    - name: Resolve Swift Package Dependencies
+      run: |
+        xcodebuild -resolvePackageDependencies -project OurMoney.xcodeproj -scheme OurMoney
+
+    - name: Clean and Archive iOS App (Release Device SDK)
+      run: |
+        xcodebuild clean -project OurMoney.xcodeproj -scheme OurMoney
+        xcodebuild archive \
+          -project OurMoney.xcodeproj \
+          -scheme OurMoney \
+          -sdk iphoneos \
+          -configuration Release \
+          -archivePath build/OurMoney.xcarchive \
+          CODE_SIGN_IDENTITY="" \
+          CODE_SIGNING_REQUIRED=NO \
+          CODE_SIGNING_ALLOWED=NO
+
+    - name: Create Payload & Export OurMoney.ipa
+      run: |
+        if [ ! -d "build/OurMoney.xcarchive/Products/Applications/OurMoney.app" ]; then
+          echo "ERROR: OurMoney.app missing inside xcarchive bundle!"
+          exit 1
+        fi
+        
+        mkdir -p build/export/Payload
+        cp -R build/OurMoney.xcarchive/Products/Applications/OurMoney.app build/export/Payload/
+        
+        cd build/export
+        zip -q -r ../OurMoney.ipa Payload
+        cd ../..
+        
+        cp build/OurMoney.ipa artifacts/OurMoney.ipa
+        echo "Successfully exported physical IPA to artifacts/OurMoney.ipa"
+
+    - name: Audit & Validate Physical IPA
+      run: |
+        node verify_ipa.js artifacts/OurMoney.ipa
+
+    - name: Upload IPA Artifact to GitHub Actions
+      uses: actions/upload-artifact@v4
+      with:
+        name: OurMoney-iOS-IPA
+        path: |
+          artifacts/OurMoney.ipa
+          FINAL_IPA_RESULT.json
